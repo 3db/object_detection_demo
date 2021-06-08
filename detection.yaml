@@ -1,7 +1,7 @@
 inference:
   module: 'torchvision.models.detection'
   class: 'retinanet_resnet50_fpn'
-  label_map: '/mnt/nfs/home/aiilyas/3db/3db/resources/coco_mapping.json'
+  label_map: './resources/coco_mapping.json'
   normalization:
     mean: [0., 0., 0.]
     std: [1., 1., 1.]
